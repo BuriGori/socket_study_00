@@ -47,3 +47,17 @@ public class WebSocketConfig implements WebSocketConfigurer {
   - WebSocketConfig를 주입받는다.
   - WebSocketHandler를 Registry에 등록해주는 메소드가 있다.
   
+--------
+--------
+
+# SockJS
+
+1. CDN으로 라이브러리 추가
+2. WebJar로 라이브러리 추가
+
+=> 해당 방식에 따라서 사용 방향이 달라질듯
+
+# STOMP
+
+1. 기본적으로 SockJS를 사용한다고 함..
+2. 자체 핸들러가 필요함
